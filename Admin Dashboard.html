@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px;
+    }
+    .widget {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 30%;
+    }
+    .widget:nth-child(odd) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Admin Dashboard</h1>
+  </header>
+  <section>
+    <div class="widget">
+      <h2>Users</h2>
+      <p>Total: 1000</p>
+    </div>
+    <div class="widget">
+      <h2>Revenue</h2>
+      <p>Total: $5000</p>
+    </div>
+    <div class="widget">
+      <h2>Orders</h2>
+      <p>Total: 300</p>
+    </div>
+  </section>
+</body>
+</html>
